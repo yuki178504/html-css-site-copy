@@ -1,0 +1,73 @@
+.header {
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  position: absolute;
+}
+
+.header-contents {
+  display: flex;
+  justify-content:space-between;
+  margin: 0 36px;
+ 
+}
+
+.headerlogo-img img {
+  height: 20px;
+  width: auto;
+}
+
+.header-nav {
+  display:inline-flex;
+  
+  
+}
+
+.header-list {
+  align-items:center;
+  display: flex;
+  list-style:none;
+  position: relative;
+  bottom: 35px;
+  
+}
+
+.header-list-contents {
+  margin-right: 45px;
+  font-size: 10px;
+  text-align: center;
+ 
+}
+
+.header-list-contents a {
+  color: black;
+  text-decoration: none;
+   
+}
+
+.header-list-contents span {
+  display: block;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  position: relative;
+  top: 20px;
+}
+
+.header-list-counseling button {
+  align-items:center;
+  background-color:#f79214;
+  border:none;
+  color: #fff;
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: bold;
+  height: 40px;
+  padding:0px 20px;
+  font-size: 12px;
+  border-radius: 38px;
+  position: relative;
+  top: 10px;
+}
+
+
